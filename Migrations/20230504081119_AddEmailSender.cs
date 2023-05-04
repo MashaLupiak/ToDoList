@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace ToDoList.Data.Migrations
+namespace ToDoList.Migrations
 {
     /// <inheritdoc />
-    public partial class RenameDb : Migration
+    public partial class AddEmailSender : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
